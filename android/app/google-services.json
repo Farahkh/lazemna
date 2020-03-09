@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "35365163130",
+    "firebase_url": "https://lazemna-33683.firebaseio.com",
+    "project_id": "lazemna-33683",
+    "storage_bucket": "lazemna-33683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35365163130:android:8d6804758e2d58f3492bc3",
+        "android_client_info": {
+          "package_name": "com.farahh.lazemna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35365163130-3ibf8od9c3h2h0p2mj4nk74c6jdgiifn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARol49_-JChoui8rva73llU4NRdU56Uro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35365163130-3ibf8od9c3h2h0p2mj4nk74c6jdgiifn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
