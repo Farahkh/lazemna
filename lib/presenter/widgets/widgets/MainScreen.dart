@@ -55,7 +55,7 @@ class MainScreenState extends State<MainScreen> {
         appBar: AppBar(
           actions: <Widget>[
             IconButton(
-              icon: Icon(Icons.close),
+              icon: Icon(Icons.power),
               onPressed: () {
                 _auth.signOut();
                 Navigator.pop(context);

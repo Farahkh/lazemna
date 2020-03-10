@@ -30,10 +30,15 @@ class LoginScreenState extends State<LoginScreen> {
         inAsyncCall: show_spinner,
         child: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Hero(tag: 'logo', child: Image.asset('assets/Lazemna_logo.png')),
+              Flexible(
+                  child: Hero(
+                      tag: 'logo',
+                      child: Image.asset(
+                        'assets/Lazemna_logo.png',
+                        width: 300,
+                      ))),
               TextField(
                 keyboardType: TextInputType.emailAddress,
                 textAlign: TextAlign.center,

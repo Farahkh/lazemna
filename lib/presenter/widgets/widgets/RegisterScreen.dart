@@ -29,7 +29,14 @@ class RegisterScreenState extends State<RegisterScreen> {
         child: Center(
           child: Column(
             children: <Widget>[
-              Hero(tag: 'logo', child: Image.asset('assets/Lazemna_logo.png')),
+              Flexible(
+                child: Hero(
+                    tag: 'logo',
+                    child: Image.asset(
+                      'assets/Lazemna_logo.png',
+                      width: 300,
+                    )),
+              ),
               TextField(
                 keyboardType: TextInputType.emailAddress,
                 textAlign: TextAlign.center,
